@@ -6,6 +6,7 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import React, { useEffect, useState } from "react";
 import Script from "next/script";
+import "./styles.css";
 
 const UIUX = () => {
   useEffect(() => {

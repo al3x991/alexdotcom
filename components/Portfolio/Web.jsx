@@ -6,6 +6,7 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import React, { useEffect, useState } from "react";
 import Script from "next/script";
+import "./styles.css";
 
 const Web = () => {
   useEffect(() => {
@@ -81,7 +82,7 @@ const Web = () => {
   return (
     <>
       <section id="portfolio" className="relative z-10 h-full max-h-screen">
-        <div className="slider">
+        <div className="slider mt-[0px] h-screen md:mt-[-150px]">
           <div className="list">
             <div className="item active">
               <Image
@@ -92,15 +93,15 @@ const Web = () => {
               />
               <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
 
-              <div className="content">
-                <p>design</p>
-                <h2>Web 01</h2>
+              <div className="content top-[27%] scale-90  md:top-[45.5%]  lg:left-[6.5%] lg:top-[49%] lg:w-[500px] lg:max-w-[80%] lg:scale-100">
+                <p>Web Development</p>
+                <h2>Website 01</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Labore, neque? Lorem ipsum dolor sit amet consectetur
                   adipisicing elit. Ipsum, ex.
                 </p>
-                <span className="mt-4 flex flex-col items-center justify-start gap-4 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <span className="mt-4 flex items-center justify-start gap-4 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/assets/file/cv.pdf"
                     className="rounded-full bg-lime px-3 py-2 text-[16px] font-semibold text-white hover:opacity-[0.9]"
@@ -126,15 +127,15 @@ const Web = () => {
               />
               <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
 
-              <div className="content">
-                <p>design</p>
-                <h2>Web 02</h2>
+              <div className="content top-[27%] scale-90  md:top-[45.5%]  lg:left-[6.5%] lg:top-[49%] lg:w-[500px] lg:max-w-[80%] lg:scale-100">
+                <p>Web Development</p>
+                <h2>Website 02</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Labore, neque? Lorem ipsum dolor sit amet consectetur
                   adipisicing elit. Ipsum, ex.
                 </p>
-                <span className="mt-4 flex flex-col items-center justify-start gap-4 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <span className="mt-4 flex  items-center justify-start gap-4 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/assets/file/cv.pdf"
                     className="rounded-full bg-lime px-3 py-2 text-[16px] font-semibold text-white hover:opacity-[0.9]"
