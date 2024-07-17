@@ -11,12 +11,33 @@
 }
 
 .secondary_btn {
-  border: 2px solid #005b41 !important;
+  border: 2px solid #d4af37 !important;
   background: transparent;
   font-weight: 600;
-  color: #005b41;
+  color: #d4af37;
   border-radius: 9999999px;
   padding: 12px 24px;
+}
+.gold_text {
+  color: #31250b;
+}
+.gold_bg {
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #bc8f30 30%,
+      #b7923c 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #745d27 62.5%,
+      #715b26 100%
+    );
 }
 .bg-dark2 {
   color: #262626;
@@ -29,7 +50,7 @@
 }
 
 .resume_scroll::-webkit-scrollbar-thumb {
-  background-color: #005b41;
+  background-color: #bf9c28;
   border-radius: 8px;
 }
 

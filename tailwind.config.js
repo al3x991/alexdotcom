@@ -21,10 +21,10 @@ module.exports = {
       dark2: "#262626",
       dark: "#121212",
       primary: "#4A6CF7",
-      lime: "#005B41",
+      lime: "#d4af37",
       yellow: "#FBB040",
       "body-color": "#0A0A0A",
-      "border-color": "#005B41",
+      "border-color": "#d4af37",
     },
     screens: {
       xs: "450px",

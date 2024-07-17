@@ -81,8 +81,8 @@ const Web = () => {
 
   return (
     <>
-      <section id="portfolio" className="relative z-10 h-full max-h-screen">
-        <div className="slider mt-[0px] h-screen md:mt-[-150px]">
+      <section id="portfolio" className="relative z-10 h-full lg:max-h-screen">
+        <div className="slider mb-[50px] mt-[0px] h-screen md:mb-[0px] md:mt-[-150px]">
           <div className="list">
             <div className="item active">
               <Image
@@ -93,7 +93,7 @@ const Web = () => {
               />
               <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
 
-              <div className="content top-[27%] scale-90  md:top-[45.5%]  lg:left-[6.5%] lg:top-[49%] lg:w-[500px] lg:max-w-[80%] lg:scale-100">
+              <div className="content top-[23%] scale-90  md:top-[45.5%]  md:max-w-[80%] lg:left-[6.5%] lg:top-[49%] lg:w-[500px] lg:scale-100">
                 <p>Web Development</p>
                 <h2>Website 01</h2>
                 <p>
@@ -127,7 +127,7 @@ const Web = () => {
               />
               <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
 
-              <div className="content top-[27%] scale-90  md:top-[45.5%]  lg:left-[6.5%] lg:top-[49%] lg:w-[500px] lg:max-w-[80%] lg:scale-100">
+              <div className="content top-[23%] scale-90  md:top-[45.5%]  md:max-w-[80%] lg:left-[6.5%] lg:top-[49%] lg:w-[500px] lg:scale-100">
                 <p>Web Development</p>
                 <h2>Website 02</h2>
                 <p>
@@ -154,28 +154,32 @@ const Web = () => {
             </div>
             {/* Additional slider items */}
           </div>
-          <div className="arrows">
+          <div className="arrows absolute bottom-[3%] right-[38%] md:bottom-[10%] md:right-[50px] ">
             <button id="prev">&lt;</button>
             <button id="next">&gt;</button>
           </div>
-          <div className="thumbnail">
-            <div className="item active">
+          <div className="thumbnail absolute bottom-[-329px] flex flex-col items-center justify-center gap-x-[30px] gap-y-[30px] overflow-y-scroll pb-[80px] md:bottom-[-265px] md:flex-row md:items-baseline lg:flex-wrap lg:justify-start lg:pb-[0px] ">
+            <div className="item active md:h-[120px] md:max-h-[70%] md:w-[156px] md:max-w-[70%] ">
               <Image
                 width={250}
                 height={180}
                 alt="bg_image"
                 src="/images/img1.jpg"
               />
-              <div className="content">Name Slider</div>
+              <div className="content font-bold text-[#816816]">
+                Name Slider
+              </div>
             </div>
-            <div className="item">
+            <div className="item md:h-[120px] md:max-h-[70%] md:w-[156px] md:max-w-[70%] ">
               <Image
                 width={250}
                 height={180}
                 alt="bg_image"
                 src="/images/img2.jpg"
               />
-              <div className="content">Name Slider</div>
+              <div className="content font-bold text-[#816816]">
+                Name Slider
+              </div>
             </div>
             {/* Additional thumbnails */}
           </div>

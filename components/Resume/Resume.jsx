@@ -78,7 +78,7 @@ const Resume = () => {
               <div
                 onClick={() => handleTabSwitch("Experience")}
                 className={`w-full cursor-pointer rounded-md px-2 py-3 text-center transition-opacity duration-300 ${
-                  tabValue === "Experience" ? "bg-lime" : "bg-dark2 opacity-70"
+                  tabValue === "Experience" ? "gold_bg" : "bg-dark2 opacity-70"
                 } hover:bg-lime`}
               >
                 <span className="text-white">Experience</span>
@@ -86,7 +86,7 @@ const Resume = () => {
               <div
                 onClick={() => handleTabSwitch("Education")}
                 className={`w-full cursor-pointer rounded-md px-2 py-3 text-center transition-opacity duration-300 ${
-                  tabValue === "Education" ? "bg-lime" : "bg-dark2 opacity-70"
+                  tabValue === "Education" ? "gold_bg" : "bg-dark2 opacity-70"
                 } hover:bg-lime`}
               >
                 <span className="text-white">Education</span>
@@ -94,7 +94,7 @@ const Resume = () => {
               <div
                 onClick={() => handleTabSwitch("Skills")}
                 className={`w-full cursor-pointer rounded-md px-2 py-3 text-center transition-opacity duration-300 ${
-                  tabValue === "Skills" ? "bg-lime" : "bg-dark2 opacity-70"
+                  tabValue === "Skills" ? "gold_bg" : "bg-dark2 opacity-70"
                 } hover:bg-lime`}
               >
                 <span className="text-white">Skills</span>
@@ -102,7 +102,7 @@ const Resume = () => {
               <div
                 onClick={() => handleTabSwitch("About")}
                 className={`w-full cursor-pointer rounded-md px-2 py-3 text-center transition-opacity duration-300 ${
-                  tabValue === "About" ? "bg-lime" : "bg-dark2 opacity-70"
+                  tabValue === "About" ? "gold_bg" : "bg-dark2 opacity-70"
                 } hover:bg-lime`}
               >
                 <span className="text-white">About Me</span>

@@ -135,13 +135,21 @@ const Header = () => {
                         )}
                       </li>
                     ))}
+                    <li className="group relative">
+                      <Link
+                        href="/contact"
+                        className="block rounded py-2.5 text-base text-dark hover:opacity-70 dark:text-white md:hidden lg:px-3"
+                      >
+                        Contact
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
               </div>
               <div className="flex items-center pl-5 pr-16 lg:pr-0">
                 <Link
                   href="/contact"
-                  className="ease-in-up text-md hidden rounded-full bg-lime px-4 py-2 font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block "
+                  className="ease-in-up text-md gold_bg gold_text hidden rounded-full px-4 py-2 font-bold transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block "
                 >
                   Contact Me
                 </Link>
