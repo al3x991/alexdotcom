@@ -122,7 +122,7 @@ const Resume = () => {
                   NextJS. Passionate about developing software solutions to
                   simplify and solve business problems.
                 </span>
-                <div className=" resume_scroll max-h-full w-full md:max-h-[216px] md:overflow-x-hidden md:overflow-y-scroll lg:max-h-[285px]">
+                <div className=" resume_scroll max-h-full w-full md:max-h-[216px] md:overflow-x-hidden md:overflow-y-scroll lg:max-h-[285px] xl:max-h-[480px] ">
                   <div className=" grid grid-cols-1 gap-4  lg:grid-cols-2">
                     <div className=" rounded-md  bg-dark2 px-3 py-4">
                       <div className=" mx-4 mb-5  flex flex-wrap justify-between">
@@ -183,7 +183,7 @@ const Resume = () => {
                 <span className="mb-3 max-w-md text-sm text-white opacity-[0.7]">
                   Detailed information about educational background.
                 </span>
-                <div className=" resume_scroll max-h-full md:max-h-[216px] md:overflow-x-hidden md:overflow-y-scroll lg:max-h-[285px]">
+                <div className=" resume_scroll max-h-full md:max-h-[216px] md:overflow-x-hidden md:overflow-y-scroll lg:max-h-[285px] xl:max-h-[480px] ">
                   <div className=" grid grid-cols-1 gap-4  lg:grid-cols-2">
                     <div className=" rounded-md  bg-dark2 px-3 py-4">
                       <div className=" mx-4 mb-5  flex flex-wrap justify-between">
@@ -237,7 +237,7 @@ const Resume = () => {
                 <span className="max-w-md text-sm text-white opacity-[0.7]">
                   Detailed information about skills and expertise.
                 </span>
-                <div className="resume_scroll mt-5 grid max-h-full w-full grid-cols-2 items-start justify-between  gap-x-20 gap-y-10 md:max-h-[216px] md:overflow-x-hidden md:overflow-y-scroll lg:max-h-[285px] lg:grid-cols-3">
+                <div className="resume_scroll mt-5 grid max-h-full w-full grid-cols-2 items-start justify-between  gap-x-20 gap-y-10 md:max-h-[216px] md:overflow-x-hidden md:overflow-y-scroll lg:max-h-[285px] xl:max-h-[480px] lg:grid-cols-3">
                   {skills.map((skill, index) => (
                     <div key={index} className="mb-6 ">
                       <div className=" mb-8 flex flex-col items-center justify-center gap-2">

@@ -55,9 +55,9 @@ const Hero = () => {
       >
         <div className="container">
           <div className="mx-4  flex flex-wrap">
-            <div className="flex flex-col justify-between gap-12 px-4 lg:flex-row">
+            <div className="flex flex-col justify-between w-full gap-12 px-4 lg:flex-row">
               <div
-                className="wow fadeInUp order-2 mx-auto flex max-w-[620px] flex-col justify-evenly lg:order-1"
+                className="wow fadeInUp order-2 flex max-w-[620px] flex-col justify-evenly lg:order-1"
                 data-wow-delay=".2s"
               >
                 <span className="pb-3 text-sm leading-[30px] opacity-[0.7]">
@@ -103,7 +103,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="ites-center mx-4 mb-12 mt-12 grid w-full  max-w-[900px] grid-cols-1 justify-between gap-4 md:grid-cols-2  md:gap-0 lg:grid-cols-4">
-              <div className="flex items-center justify-center gap-2">
+              <div className="flex items-center justify-center md:justify-start gap-2">
                 <h2 className="text-[44px] font-bold text-white">
                   {yearsOfExperience}
                 </h2>
@@ -112,7 +112,7 @@ const Hero = () => {
                 </span>
               </div>
 
-              <div className="flex items-center justify-center gap-2">
+              <div className="flex items-center justify-center md:justify-start gap-2">
                 <h2 className="text-[44px] font-bold text-white">
                   {projectsCompleted}
                 </h2>
@@ -121,7 +121,7 @@ const Hero = () => {
                 </span>
               </div>
 
-              <div className="flex items-center justify-center gap-2">
+              <div className="flex items-center justify-center md:justify-start gap-2">
                 <h2 className="text-[44px] font-bold text-white">
                   {technologiesMastered}
                 </h2>
@@ -130,7 +130,7 @@ const Hero = () => {
                 </span>
               </div>
 
-              <div className="flex items-center justify-center gap-2">
+              <div className="flex items-center justify-center md:justify-start gap-2">
                 <h2 className="text-[44px] font-bold text-white">
                   {codeCommits}
                 </h2>

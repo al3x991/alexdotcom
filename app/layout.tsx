@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <body className={`${jetbrainsMono.variable}  md:overflow-y-hidden`}>
+      <body className={`${jetbrainsMono.variable}  lg:overflow-y-hidden`}>
         <Providers>
           <Header />
           <ScrollUp />
