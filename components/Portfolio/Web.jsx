@@ -237,7 +237,7 @@ const Web = () => {
             <button id="prev">&lt;</button>
             <button id="next">&gt;</button>
           </div>
-          <div className="thumbnail lg:absolute bottom-[-1050px] h-[100%] lg:bottom-[115px] flex flex-col items-center justify-start relative gap-x-[30px] gap-y-[30px] overflow-y-scroll pb-[80px]  md:flex-row md:items-baseline lg:flex-wrap lg:justify-start lg:pb-[0px] ">
+          <div className="thumbnail lg:absolute bottom-[-1050px] h-[100%] lg:bottom-[-935px] flex flex-col items-center justify-start relative gap-x-[30px] gap-y-[30px] overflow-y-scroll pb-[80px]  md:flex-row md:items-baseline lg:flex-wrap lg:justify-start lg:pb-[0px] ">
             <div className="item active md:h-[120px] md:max-h-[70%] md:w-[156px] md:max-w-[70%] ">
               <Image
                 width={250}
