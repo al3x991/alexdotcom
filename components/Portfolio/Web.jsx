@@ -89,7 +89,7 @@ const Web = () => {
                 width={1920}
                 height={1080}
                 alt="bg_image"
-                src="/images/web01.png"
+                src="/images/web01.webp"
               />
               <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
 
@@ -125,7 +125,7 @@ const Web = () => {
                 width={1920}
                 height={1080}
                 alt="bg_image"
-                src="/images/web2.png"
+                src="/images/web2.webp"
               />
               <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
 
@@ -162,7 +162,7 @@ const Web = () => {
                 width={1920}
                 height={1080}
                 alt="bg_image"
-                src="/images/web3.png"
+                src="/images/web3.webp"
               />
               <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
 
@@ -199,7 +199,7 @@ const Web = () => {
                 width={1920}
                 height={1080}
                 alt="bg_image"
-                src="/images/web4.png"
+                src="/images/web4.webp"
               />
               <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
 
@@ -243,7 +243,7 @@ const Web = () => {
                 width={250}
                 height={180}
                 alt="bg_image"
-                src="/images/web01.png"
+                src="/images/web01.webp"
               />
               <div className="content font-bold text-[#816816]">
                 TitanTTrade
@@ -254,7 +254,7 @@ const Web = () => {
                 width={250}
                 height={180}
                 alt="bg_image"
-                src="/images/web2.png"
+                src="/images/web2.webp"
               />
               <div className="content font-bold text-[#816816]">
                 EthosMatrix
@@ -265,7 +265,7 @@ const Web = () => {
                 width={250}
                 height={180}
                 alt="bg_image"
-                src="/images/web3.png"
+                src="/images/web3.webp"
               />
               <div className="content font-bold text-[#816816]">
                 MovieStream
@@ -276,7 +276,7 @@ const Web = () => {
                 width={250}
                 height={180}
                 alt="bg_image"
-                src="/images/web4.png"
+                src="/images/web4.webp"
               />
               <div className="content font-bold text-[#816816]">
                 ShopNow-Now
