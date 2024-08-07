@@ -39,11 +39,12 @@ const Resume = () => {
             const newPercentages = [...prev];
             if (newPercentages[index] < skill.level) {
               newPercentages[index] += 1;
+            } else {
+              clearInterval(interval);
             }
             return newPercentages;
           });
         }, 10);
-        setTimeout(() => clearInterval(interval), skill.level * 10);
       }, index * 200); // Slight delay between each skill animation
     });
   };
@@ -68,9 +69,7 @@ const Resume = () => {
                 Why Hire Me?
               </h2>
               <span className="max-w-md text-sm text-white opacity-[0.7]">
-                A hardworking, articulate and dependable individual with
-                knowledge of popular web frameworks such as ReactJS and NextJS.
-                Passionate about developing software solutions to simplify and
+                I'm Passionate about developing software solutions to simplify and
                 solve business problems.
               </span>
             </div>
@@ -117,10 +116,7 @@ const Resume = () => {
                   Work Experience
                 </h2>
                 <span className="mb-3 max-w-xl text-sm text-white opacity-[0.7]">
-                  A hardworking, articulate and dependable individual with
-                  knowledge of popular web frameworks such as ReactJS and
-                  NextJS. Passionate about developing software solutions to
-                  simplify and solve business problems.
+                  Over 6 years of experience in professional and freelance roles.
                 </span>
                 <div className=" resume_scroll max-h-full w-full md:max-h-[216px] md:overflow-x-hidden md:overflow-y-scroll lg:max-h-[285px] xl:max-h-[480px] ">
                   <div className=" grid grid-cols-1 gap-4  lg:grid-cols-2">
@@ -266,8 +262,12 @@ const Resume = () => {
                 <h2 className="mb-5 text-2xl font-bold leading-[40px] text-white">
                   About Me
                 </h2>
-                <span className="max-w-md text-sm text-white opacity-[0.7]">
-                  Detailed information about personal background and interests.
+                <span className="w-full text-sm text-white opacity-[0.7]">
+                <p className=" mb-3 w-full">My passion for software development is driven by a desire to create scalable, efficient, and user-friendly applications. Whether working as part of a team or individually, I strive to deliver and maintain a high standard of service. Excellent communication skills enable me to understand client requirements effectively, provide insightful opinions, and offer valuable advice.</p>
+
+                <p className=" mb-3 w-full">Outside of coding, I enjoy drawing and spending time on the internet, exploring developer community sites like Stackoverflow and YouTube. Currently, I am delving into blockchain programming and its potential impact on the future of the internet, particularly in the context of "Web 3.0."</p>
+
+                <p className=" mb-3 w-full">I am ambitious, adaptable, and committed to continuous learning and improvement in the ever-evolving field of software development.</p>
                 </span>
               </div>
             )}

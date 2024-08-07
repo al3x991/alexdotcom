@@ -81,27 +81,26 @@ const UIUX = () => {
 
   return (
     <>
-      <section id="portfolio" className="relative z-10 h-full max-h-screen">
-        <div className="slider">
+      <section id="portfolio" className="relative z-10 h-full lg:max-h-screen">
+        <div className="slider mb-[50px] mt-[0px] h-screen md:mb-[0px] md:mt-[-150px]">
           <div className="list">
             <div className="item active">
               <Image
-                width={250}
-                height={180}
+                width={1920}
+                height={1080}
                 alt="bg_image"
-                src="/images/img1.jpg"
+                src="/images/web01.png"
               />
               <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
 
-              <div className="content">
-                <p>design</p>
-                <h2>UI/UX 01</h2>
+              <div className="content top-[23%] scale-90  md:top-[45.5%]  md:max-w-[80%] lg:left-[6.5%] lg:top-[49%] lg:w-[500px] lg:scale-100">
+                <div className="max-w-lg">
+                <p>Web Development</p>
+                <h2>TitanTTrade</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Labore, neque? Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Ipsum, ex.
+                 A web3 crypto investment and trading platform built using the Next.js framework. The application provides a seamless and secure environment for users to connect their Bitcoin, Ethereum, or Solana wallets and start trading.
                 </p>
-                <span className="mt-4 flex flex-col items-center justify-start gap-4 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <span className="mt-4 flex items-center justify-start gap-4 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/assets/file/cv.pdf"
                     className="rounded-full bg-lime px-3 py-2 text-[16px] font-semibold text-white hover:opacity-[0.9]"
@@ -116,6 +115,10 @@ const UIUX = () => {
                     <FaGithub className="text-[16px] font-bold text-white" />
                   </Link>
                 </span>
+                </div>
+                <div className="">
+                  <p>efwefewfew</p>
+                </div>
               </div>
             </div>
             <div className="item">
@@ -127,15 +130,14 @@ const UIUX = () => {
               />
               <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
 
-              <div className="content">
-                <p>design</p>
-                <h2>UI/UX 02</h2>
+              <div className="content top-[23%] scale-90  md:top-[45.5%]  md:max-w-[80%] lg:left-[6.5%] lg:top-[49%] lg:w-[500px] lg:scale-100">
+                <div className=" max-w-lg">
+                <p>Web Development</p>
+                <h2>TitanTTrade</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Labore, neque? Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Ipsum, ex.
+                 A web3 crypto investment and trading platform built using the Next.js framework. The application provides a seamless and secure environment for users to connect their Bitcoin, Ethereum, or Solana wallets and start trading.
                 </p>
-                <span className="mt-4 flex flex-col items-center justify-start gap-4 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <span className="mt-4 flex items-center justify-start gap-4 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/assets/file/cv.pdf"
                     className="rounded-full bg-lime px-3 py-2 text-[16px] font-semibold text-white hover:opacity-[0.9]"
@@ -150,118 +152,51 @@ const UIUX = () => {
                     <FaGithub className="text-[16px] font-bold text-white" />
                   </Link>
                 </span>
-              </div>
-            </div>
-            <div className="item">
-              <Image
+                </div>
+                <div className="  hidden xl:flex justify-evenly gap-5 align-top items-start ">
+                <Image
                 width={250}
-                height={180}
+                height={400}
                 alt="bg_image"
-                src="/images/img3.jpg"
+                src="/images/web03.png"
               />
-              <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
-
-              <div className="content">
-                <p>design</p>
-                <h2>UI/UX 03</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Labore, neque? Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Ipsum, ex.
-                </p>
-                <span className="mt-4 flex flex-col items-center justify-start gap-4 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="/assets/file/cv.pdf"
-                    className="rounded-full bg-lime px-3 py-2 text-[16px] font-semibold text-white hover:opacity-[0.9]"
-                  >
-                    Live Demo
-                  </Link>
-                  <Link
-                    href="https://github.com/al3x991"
-                    className="flex items-center gap-2 rounded-full bg-black/20 px-3 py-2 text-[16px] font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
-                  >
-                    Github Repo
-                    <FaGithub className="text-[16px] font-bold text-white" />
-                  </Link>
-                </span>
-              </div>
-            </div>
-            <div className="item">
-              <Image
+               <Image
                 width={250}
-                height={180}
+                height={400}
                 alt="bg_image"
-                src="/images/img4.jpg"
+                src="/images/web02.png"
               />
-              <div className="overlay absolute left-0 top-0 z-0 h-full w-full bg-black opacity-[0.9]"></div>
-
-              <div className="content">
-                <p>design</p>
-                <h2>UI/UX 04</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Labore, neque? Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Ipsum, ex.
-                </p>
-                <span className="mt-4 flex flex-col items-center justify-start gap-4 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="/assets/file/cv.pdf"
-                    className="rounded-full bg-lime px-3 py-2 text-[16px] font-semibold text-white hover:opacity-[0.9]"
-                  >
-                    Live Demo
-                  </Link>
-                  <Link
-                    href="https://github.com/al3x991"
-                    className="flex items-center gap-2 rounded-full bg-black/20 px-3 py-2 text-[16px] font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
-                  >
-                    Github Repo
-                    <FaGithub className="text-[16px] font-bold text-white" />
-                  </Link>
-                </span>
+                </div>
               </div>
             </div>
             {/* Additional slider items */}
           </div>
-          <div className="arrows">
+          <div className="arrows absolute bottom-[3%] right-[38%] md:bottom-[10%] md:right-[50px] ">
             <button id="prev">&lt;</button>
             <button id="next">&gt;</button>
           </div>
-          <div className="thumbnail">
-            <div className="item active">
+          <div className="thumbnail lg:absolute bottom-[-1050px] h-[100%] lg:h-[250px] flex flex-col items-center justify-start relative gap-x-[30px] gap-y-[30px] overflow-y-scroll pb-[80px] md:bottom-[-265px] md:flex-row md:items-baseline lg:flex-wrap lg:justify-start lg:pb-[0px] ">
+            <div className="item active md:h-[120px] md:max-h-[70%] md:w-[156px] md:max-w-[70%] ">
               <Image
                 width={250}
                 height={180}
                 alt="bg_image"
-                src="/images/img1.jpg"
+                src="/images/web01.png"
               />
-              <div className="content">Name Slider</div>
+              <div className="content font-bold text-[#816816]">
+                TitanTTrade
+              </div>
             </div>
-            <div className="item">
+            <div className="item md:h-[120px] md:max-h-[70%] md:w-[156px] md:max-w-[70%] ">
               <Image
                 width={250}
                 height={180}
                 alt="bg_image"
                 src="/images/img2.jpg"
               />
-              <div className="content">Name Slider</div>
-            </div>
-            <div className="item">
-              <Image
-                width={250}
-                height={180}
-                alt="bg_image"
-                src="/images/img3.jpg"
-              />
-              <div className="content">Name Slider</div>
-            </div>
-            <div className="item">
-              <Image
-                width={250}
-                height={180}
-                alt="bg_image"
-                src="/images/img4.jpg"
-              />
-              <div className="content">Name Slider</div>
+              <div className="content font-bold text-[#816816]">
+                Name Slider
+              </div>
             </div>
             {/* Additional thumbnails */}
           </div>

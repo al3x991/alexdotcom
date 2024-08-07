@@ -4,15 +4,16 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Link from "next/link";
 import { GoArrowDownRight, GoArrowRight } from "react-icons/go";
+import Circle from '@/components/AnimCircle/Circle';
 
 const Services = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const services = [
-    { title: "Web Development", id: "01" },
-    { title: "Mobile Development", id: "02" },
-    { title: "UI/UX Design", id: "03" },
-    { title: "SEO", id: "04" },
+    { title: "Web Development", id: "01", description: "Creating responsive and robust websites tailored to your business needs." },
+    { title: "Mobile Development - (In View)", id: "02", description: "Building user-friendly mobile applications for both Android and iOS platforms." },
+    { title: "UI/UX Design", id: "03", description: "Designing intuitive and engaging user interfaces for a seamless user experience." },
+    { title: "SEO", id: "04", description: "Optimizing your website to rank higher on search engines and attract more traffic." },
   ];
 
   return (
@@ -32,12 +33,7 @@ const Services = () => {
               </span>
             </div>
             <div className="relative order-1 mx-auto h-56 w-56 rounded-full lg:order-2 lg:mx-0 lg:h-64 lg:w-64">
-              <Image
-                className="rounded-full"
-                fill
-                src="/images/hero/alex.jpg"
-                alt="image description"
-              />
+              <Circle />
             </div>
           </div>
 
@@ -82,7 +78,7 @@ const Services = () => {
                     {service.title}
                   </h2>
                   <p className="text-normal mb-4 text-white opacity-70">
-                    Body text for the first grid item.
+                    {service.description}
                   </p>
                 </Link>
               ))}

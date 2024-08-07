@@ -32,6 +32,12 @@
   top: 49%;
   width: 500px;
   max-width: 80%; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  gap: 20px;
+  align-items: center;
   z-index: 10;
 }
 .slider .list .item .content p:nth-child(1) {

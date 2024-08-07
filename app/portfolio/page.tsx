@@ -23,12 +23,12 @@ const PortfolioPage = () => {
         >
           Web Development
         </span>
-        <span
+        {/* <span
           className="cursor-pointer text-base font-bold hover:text-lime"
           onClick={() => handleComponentSwitch("UIUX")}
         >
           UI/UX Design
-        </span>
+        </span> */}
       </div>
     </>
   );
