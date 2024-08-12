@@ -27,7 +27,7 @@ export default function FloatingButton() {
   return (
     <div
       className={`fixed bottom-4 right-4 flex items-center justify-center
-        ${isHovered || isClicked ? "h-40 w-40" : "h-16 w-16"}
+        ${isHovered || isClicked ? "h-80 w-80" : "h-16 w-16"}
         ${isHovered || isClicked ? "rounded-lg" : "rounded-full"}
         z-50 cursor-pointer bg-white transition-all duration-300`}
       //   onMouseEnter={handleMouseEnter}
@@ -36,13 +36,13 @@ export default function FloatingButton() {
     >
       {isHovered || isClicked ? (
         <div className="z-[99999] text-center">
-          <p className="font-bold text-black opacity-80">Scan me</p>
+         
           <Image
             src="/images/qr-code.png"
             alt="QRC_image"
-            width={100}
-            height={100}
-            className="mx-auto mt-2 h-[100] w-[100]"
+            width={300}
+            height={300}
+            className="mx-auto mt-2 h-[300] w-[300]"
           />
         </div>
       ) : (
