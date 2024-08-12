@@ -74,13 +74,14 @@ const Hero = () => {
                   <span ref={textRef}></span>
                 </p>
                 <div className="flex flex-col items-center justify-start gap-10 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="/assets/file/cv.pdf"
-                    className="secondary_btn flex"
-                  >
-                    Download CV{" "}
-                    <MdOutlineFileDownload className=" text-xl font-bold text-lime" />
-                  </Link>
+                <a
+      href="/docs/CV-osaretin-omoruyi-2024.pdf"
+      download
+      className="secondary_btn flex"
+    >
+      Download CV{" "}
+      <MdOutlineFileDownload className="text-xl font-bold text-lime" />
+    </a>
                   <Link
                     href="https://github.com/al3x991"
                     className="flex items-center gap-5 rounded-full bg-black/20 px-8 py-4 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"

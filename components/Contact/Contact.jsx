@@ -54,13 +54,13 @@ const Contact = () => {
           Get in touch! I'lld like to hear from you
           </p>
           <p className="text-gray-500 dark:text-gray-400 mb-8 font-light sm:text-xl lg:mb-16">
-           Email: 
+           Email: ostrategic@gmail.com
           </p>
           <p className="text-gray-500 dark:text-gray-400 mb-8 font-light sm:text-xl lg:mb-16">
-           Phone: 
+           Phone: (+234) 9069 525059
           </p>
           <p className="text-gray-500 dark:text-gray-400 mb-8 font-light sm:text-xl lg:mb-16">
-           Address: 
+           Address: Lagos, Nigeria
           </p>
           </div>
           <div className=" px-4 w-full max-w-xl">
