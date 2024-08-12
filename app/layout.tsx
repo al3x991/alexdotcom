@@ -6,6 +6,9 @@ import { JetBrains_Mono } from "@next/font/google";
 import ScrollToTop from "@/components/ScrollToTop";
 import ScrollUp from "@/components/Common/ScrollUp";
 import "../styles/index.css";
+import PageTransition from '@/components/PageTransition';
+import StairTransition from '@/components/StairTransition';
+
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -22,10 +25,13 @@ export default function RootLayout({
       <body className={`${jetbrainsMono.variable}  lg:overflow-y-hidden`}>
         <Providers>
           <Header />
-          <ScrollUp />
+          <StairTransition />
+          <PageTransition>
           {children}
+          <ScrollUp />
           <QRC />
           <ScrollToTop />
+          </PageTransition>
         </Providers>
       </body>
     </html>

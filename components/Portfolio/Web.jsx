@@ -14,32 +14,40 @@ const Web = () => {
     {
       src: "/images/web01.webp",
       title: "TitanTTrade",
-      description: "A web3 crypto investment and trading platform built using the Next.js framework. The application provides a seamless and secure environment for users to connect their Bitcoin, Ethereum, or Solana wallets and start trading.",
+      description: "A full-stack web3 crypto trading platform with KYC, 2FA, user roles, authentication, and secure trading capabilities. Built on Next.js, this platform offers a seamless trading experience for Bitcoin, Ethereum, and Solana users.",
       demoLink: "https://block-app-psi.vercel.app/",
       repoLink: "https://github.com/al3x991/Titanttrade",
     },
     {
+      src: "/images/web5.webp",
+      title: "The Burger Place",
+      description: "A visually engaging frontend design for a burger restaurant, capturing the essence of the brand with a user-friendly interface and vibrant aesthetics.",
+      demoLink: "https://theburgerplace.vercel.app/",
+      repoLink: "https://github.com/al3x991/TheBurgerPlace",
+    },
+    {
       src: "/images/web2.webp",
       title: "EthosMatrix",
-      description: "A sleek platform for cryptocurrency investment.",
+      description: "A professional website for a construction company, featuring a blog and content management system to keep clients informed and engaged.",
       demoLink: "https://ethosmatrix.com",
       repoLink: "https://github.com/al3x991/EthosMatrixWebsite",
     },
     {
       src: "/images/web3.webp",
       title: "Movie (UI CLONE)",
-      description: "A sleek video streaming platform inspired by Netflix, offering a seamless and secure experience for discovering and enjoying your favorite movies and TV shows.",
+      description: "A UI clone of Netflix's web app, offering a polished and immersive experience for discovering and streaming movies and TV shows.",
       demoLink: "https://vibrant-kirch-c658a7.netlify.app/",
       repoLink: "https://github.com/al3x991/TheMovieApp",
     },
     {
       src: "/images/web4.webp",
       title: "ShopNow",
-      description: "An online shopping platform.",
+      description: "A sleek UI/UX design for an ecommerce store specializing in clothing, with an intuitive shopping experience and modern design.",
       demoLink: "https://sad-tereshkova-ee89e8.netlify.app/",
       repoLink: "https://github.com/al3x991/ShopNow/tree/master",
     },
   ];
+  
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
